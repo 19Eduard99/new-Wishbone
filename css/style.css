@@ -12,11 +12,11 @@ a {
 }
 
 /*<header class="header">*/
-.header{
+.header {
     padding: 22px 0;
 }
 
-.header-container{
+.header-container {
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -24,16 +24,16 @@ a {
     padding: 0 20px 0 22px;
 }
 
-.navigator-list{
+.navigator-list {
     list-style: none;
     display: flex
 }
 
-.navigator-list__item{
+.navigator-list__item {
     margin-left: 32px
 }
 
-.navigator-list__item a{
+.navigator-list__item a {
     color: #1B1A1A;
     font-family: Poppins, sans-serif;
     font-size: 15px;
@@ -42,7 +42,7 @@ a {
     line-height: 24px;
 }
 
-.navigator-list__item:last-child a{
+.navigator-list__item:last-child a {
     color: #FFF;
     font-family: Poppins, sans-serif;
     font-size: 16px;
@@ -54,34 +54,36 @@ a {
     background-color: black;
     border-radius: 14px
 }
+
 /*<header class="header">*/
 
 
 
 /*<section class="wishbone-section">*/
-.wishbone-section{
+.wishbone-section {
     padding: 137px 0 128px;
     background-color: #ECE7E4;
-    position:relative;
+    position: relative;
 }
 
-.wishbone-section__container{
+.wishbone-section__container {
     max-width: 1240px;
     margin: auto
 }
 
-.wishbone-section__subtitle{
+.wishbone-section__subtitle {
     color: #645C55;
     font-family: Poppins, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px; /* 142.857% */
+    line-height: 20px;
+    /* 142.857% */
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
-.wishbone-section__title{
+.wishbone-section__title {
     color: #1B1A1A;
     font-family: Poppins, sans-serif;
     font-size: 64px;
@@ -91,7 +93,7 @@ a {
     margin: 20px 0 18px;
 }
 
-.wishbone-section__text{
+.wishbone-section__text {
     color: #403E3B;
     font-family: Poppins, sans-serif;
     font-size: 16px;
@@ -102,7 +104,7 @@ a {
     max-width: 509px;
 }
 
-.wishbone-section__link{
+.wishbone-section__link {
     color: #1B1A1A;
     font-family: Poppins, sans-serif;
     font-size: 16px;
@@ -113,7 +115,7 @@ a {
     margin-left: 20px
 }
 
-.wishbone-section__image{
+.wishbone-section__image {
     position: absolute;
     right: 0;
     top: 0;
@@ -122,21 +124,76 @@ a {
     background-image: url('../img/IMAGE50.jpg');
     background-size: cover
 }
+
 /*<section class="wishbone-section">*/
 
 
 
+/* <section class="our-firm"> */
+.our-firm {
+    padding: 100px 0 56px;
+}
+
+.our-firm__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: auto
+}
+
+.our-firm__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #403E3B;
+}
+
+.our-firm__description-container {
+    max-width: 500px
+}
+
+.our-firm__description {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #403E3B;
+    margin-bottom: 18px;
+}
+
+/* <section class="our-firm"> */
+
+
+
+/* <section class="reeding-house"> */
+.reeding-house {
+    min-height: 600px;
+    background-image: url('../img/reeding-house.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 75px;
+}
+
+/* <section class="reeding-house"> */
+
+
+
 /*<section class="process">*/
-.process{
+.process {
     padding: 100px 0;
 }
 
-.process__container{
+.process__container {
     max-width: 1168px;
     margin: auto;
 }
 
-.process__subtitle{
+.process__subtitle {
     text-align: center;
     margin-bottom: 13px;
     color: #645C55;
@@ -149,7 +206,7 @@ a {
     text-transform: uppercase;
 }
 
-.process__title{
+.process__title {
     text-align: center;
     margin-bottom: 47px;
     color: #1B1A1A;
@@ -160,17 +217,17 @@ a {
     line-height: 42px;
 }
 
-.process__articles{
+.process__articles {
     display: flex;
     justify-content: space-between;
 }
 
-.process__article-item{
+.process__article-item {
     max-width: 379px;
     text-align: center;
 }
 
-.process__article-title{
+.process__article-title {
     margin: 15px 0 10px;
     color: #403E3B;
     text-align: center;
@@ -181,7 +238,7 @@ a {
     line-height: 26px;
 }
 
-.process__article-text{
+.process__article-text {
     color: #645C55;
     max-width: 294px;
     text-align: center;
@@ -191,17 +248,33 @@ a {
     font-weight: 400;
     line-height: 24px;
 }
+
 /*<section class="process">*/
 
 
 
+/* <section class="marble-staircase"> */
+.marble-staircase {
+    min-height: 600px;
+    background-image: url('../img/marble-staircase.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 75px;
+}
+
+/* <section class="marble-staircase"> */
+
+
+
 /*<section class="customers">*/
-.customers{
+.customers {
     padding: 100px 0;
     background: #403E3B;
 }
 
-.customers__container{
+.customers__container {
     max-width: 1168px;
     margin: auto;
     display: flex;
@@ -209,11 +282,11 @@ a {
     justify-content: space-between;
 }
 
-.customers__info{
+.customers__info {
     max-width: 460px;
 }
 
-.customers__subtitle{
+.customers__subtitle {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -224,7 +297,7 @@ a {
     color: #ECE7E4;
 }
 
-.customers__title{
+.customers__title {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -234,7 +307,7 @@ a {
     color: #FFFFFF;
 }
 
-.customers__text{
+.customers__text {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -243,45 +316,192 @@ a {
     color: #cbcbcb;
 }
 
-.customers__logos{
+.customers__logos {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.customers__logo-items{
+.customers__logo-items {
     display: flex;
     align-items: center;
 }
 
-.mb{
+.mb {
     margin-bottom: 128px;
 }
 
-.customers__logo-items a{
+.customers__logo-items a {
     margin-right: 96px;
 }
+
 /*<section class="customers">*/
 
 
 
+/* <section class="swirling-staircase"> */
+
+.swirling-staircase {
+    min-height: 600px;
+    background-image: url('../img/swirling-staircase.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 75px;
+}
+
+.desription {
+    max-width: 285px;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+
+.subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+}
+
+/* <section class="swirling-staircase"> */
+
+
+/* <section class="featured-projects"> */
+.featured-projects {
+    padding: 120px 0 100px;
+    background-color: #F7F7F7;
+}
+
+.featured-projects__container {
+    max-width: 1168px;
+    margin: auto;
+}
+
+.featured-projects__title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    margin-bottom: 15px;
+    line-height: 42px;
+    color: #1B1A1A;
+}
+
+.featured-projects__text {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 42px;
+    line-height: 30px;
+    color: #645C55;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects__item {
+    position: relative;
+    margin-left: 5px; 
+    margin-right: 5px;
+    max-width: 375px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.projects__item:hover .projects__description {
+    bottom: 0;
+}
+
+.projects__item img {
+    width: 100%;
+}
+
+.projects__description {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    bottom: -100%;
+    transition: all 0.5s ease;
+}
+
+.city {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+}
+
+.projects__title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #403E3B;
+    
+}
+
+.projects__link {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 14px;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 24px;
+    margin-left: 15px;
+    letter-spacing: 0.4px;
+    background-color: #1B1A1A;
+    padding: 11px 20px;
+    color: #FFFFFF;
+}
+
+/* <section class="featured-projects"> */
+
+
+
+
 /*<section class="our-team">*/
-.our-team{
+.our-team {
     padding: 96px 0 128px;
 }
 
-.our-team__container{
+.our-team__container {
     max-width: 1168px;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
 
-.our-team__info{
+.our-team__info {
     max-width: 380px;
 }
 
-.our-team__title{
+.our-team__title {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -291,7 +511,7 @@ a {
     margin-bottom: 14px;
 }
 
-.our-team__text{
+.our-team__text {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -301,7 +521,7 @@ a {
     margin-bottom: 30px;
 }
 
-.our-team__link{
+.our-team__link {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -312,7 +532,7 @@ a {
     padding: 11px 20px;
 }
 
-.our-team__image{
+.our-team__image {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -320,7 +540,7 @@ a {
     padding-right: 35px;
 }
 
-.our-team__image-info{
+.our-team__image-info {
     width: 300px;
     display: flex;
     align-items: center;
@@ -331,7 +551,7 @@ a {
     margin-right: 20px;
 }
 
-.name-and-position p:first-child{
+.name-and-position p:first-child {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -340,7 +560,7 @@ a {
     color: #1B1A1A;
 }
 
-.name-and-position p:last-child{
+.name-and-position p:last-child {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -348,24 +568,25 @@ a {
     line-height: 14px;
     color: #645C55;
 }
+
 /*<section class="our-team">*/
 
 
 
 /*<section class="get-in-touch">*/
-.get-in-touch{
+.get-in-touch {
     background-color: #CEC4BC;
     padding: 113px 0 117px
 }
 
-.get-in-touch__container{
+.get-in-touch__container {
     max-width: 1168px;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
 
-.get-in-touch__text h4{
+.get-in-touch__text h4 {
     color: #645C55;
     font-family: Poppins, sans-serif;
     font-size: 14px;
@@ -376,7 +597,7 @@ a {
     text-transform: uppercase;
 }
 
-.get-in-touch__text h1{
+.get-in-touch__text h1 {
     color: #1B1A1A;
     font-family: Poppins, sans-serif;
     font-size: 40px;
@@ -385,7 +606,7 @@ a {
     line-height: 42px;
 }
 
-.get-in-touch__link{
+.get-in-touch__link {
     color: #1B1A1A;
     display: flex;
     font-family: Poppins, sans-serif;
@@ -396,28 +617,29 @@ a {
     letter-spacing: 0.4px;
     align-items: center
 }
+
 /*<section class="get-in-touch">*/
 
 
 
 /*<footer class="footer">*/
-.footer{
+.footer {
     background-color: #F7F7F7;
     padding: 62px 0 60px
 }
 
-.footer__container{
+.footer__container {
     max-width: 1168px;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
 
-.footer__logo a img{
+.footer__logo a img {
     margin-bottom: 20px;
 }
 
-.footer__logo p{
+.footer__logo p {
     color: #645C55;
     font-family: Poppins, sans-serif;
     font-size: 14px;
@@ -426,7 +648,7 @@ a {
     line-height: 20px;
 }
 
-.footer__logo p span{
+.footer__logo p span {
     color: #645C55;
     font-family: Poppins, sans-serif;
     font-size: 13px;
@@ -434,13 +656,15 @@ a {
     font-weight: 400;
     line-height: 20px;
 }
-.footer__social{
+
+.footer__social {
     list-style: none;
     display: flex;
     align-items: end;
 }
 
-.footer__social li{
+.footer__social li {
     margin-left: 20px
 }
+
 /*<footer class="footer">*/
