@@ -225,6 +225,7 @@ a {
 .process__article-item {
     max-width: 379px;
     text-align: center;
+    padding: 10px;
 }
 
 .process__article-title {
@@ -240,7 +241,8 @@ a {
 
 .process__article-text {
     color: #645C55;
-    max-width: 294px;
+    padding-left: 14px;
+    padding-right: 14px;
     text-align: center;
     font-family: Poppins, sans-serif;
     font-size: 15px;

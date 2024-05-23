@@ -12,7 +12,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins&family=Roboto:wght@900&family=Yeseva+One&display=swap"
         rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="css/media.css">
 </head>
 
@@ -110,15 +115,15 @@
     </section>
 
     <section class="process">
-        <div class="process__container">
+        <div class="swiper process__container">
             <h4 class="process__subtitle">
                 Our process
             </h4>
             <h2 class="process__title">
                 How we do what we do.
             </h2>
-            <div class="process__articles">
-                <article class="process__article-item">
+            <div class="swiper-wrapper process__articles">
+                <article class="swiper-slide process__article-item">
                     <img src="img/sketching.svg" alt="sketching">
                     <h3 class="process__article-title">
                         Sketching
@@ -128,7 +133,7 @@
                         sapien ac arcu tempor, vitae tempor leo iaculis.
                     </p>
                 </article>
-                <article class="process__article-item">
+                <article class="swiper-slide process__article-item">
                     <img src="img/finalizing.svg" alt="finalizing">
                     <h3 class="process__article-title">
                         Finalizing
@@ -138,7 +143,7 @@
                         tempor, vitae.
                     </p>
                 </article>
-                <article class="process__article-item">
+                <article class="swiper-slide process__article-item">
                     <img src="img/building.svg" alt="building">
                     <h3 class="process__article-title">
                         Building
@@ -199,9 +204,9 @@
                 Wishbone+Partners.</p>
             <div class="projects">
                 <article class="projects__item">
-                    
+
                     <div class="projects__description">
-                        
+
                         <h4 class="projects__title">
                             <span class="city">Malmö</span>
                             Pumpkin St. Bar
@@ -213,9 +218,9 @@
                     <img src="img/Malmo.jpg" alt="Malmo">
                 </article>
                 <article class="projects__item">
-                    
+
                     <div class="projects__description">
-                        
+
                         <h4 class="projects__title">
                             <span class="city">New York</span>
                             Big Road Brewery
@@ -223,7 +228,7 @@
                         <a href="#" class="projects__link">
                             Read more
                         </a>
-                    </div> 
+                    </div>
                     <img src="img/New-York.jpg" alt="New York">
                 </article>
                 <article class="projects__item">
@@ -320,6 +325,7 @@
             </ul>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
